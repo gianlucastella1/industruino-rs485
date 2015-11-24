@@ -12,7 +12,13 @@ The sketch does:
 For testing purpose, I used a IME MFD4421 (http://bit.ly/1MOjBJo) I bought for another project. Any other modbus slave may work.
 
 ##Libraries
-TBC
+| Library | Repository |
+|---------|------------|
+| Indio | https://github.com/Industruino/Indio |
+| UC1701 | https://github.com/Industruino/UC1701 |
+| SimpleModbusMaster | https://goo.gl/4B1s9B |
+
+NOTE: Please read 3rd party library's README for respective author's name and usage guide.
 
 ##License
 The MIT License (MIT)
