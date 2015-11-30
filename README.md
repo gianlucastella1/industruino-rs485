@@ -3,11 +3,11 @@ This is an example sketch I wrote in order to explore the RS485 capabilities of 
 
 ##What the sketch DOES
 The sketch does:
-* Initialize Serial1 (the onboard RS485 tranceiver)
+* Initialize LCD
 * Initialize the modbus master
-* Write a value to a slave device (using 0x04 function code)
+* Write two values to a slave device (using 0x10 function code)
 * Read out values from a slave (using 0x03 function code)
-* Print out values to the display
+* Process read values and display them on the LCD
 
 For testing purpose, I used a IME MFD4421 (http://bit.ly/1MOjBJo) I bought for another project. Any other modbus slave may work.
 
